@@ -16,7 +16,7 @@ try {
 
     // Gmail SMTP credentials
     $mail->Username = 'hackerhub8.info@gmail.com';     
-    $mail->Password = 'tgou hxub fwqb zvgc';       
+    $mail->Password = '';       
     $mail->SMTPSecure = 'tls';
     $mail->Port = 587;
 
