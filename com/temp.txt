@@ -1,0 +1,19 @@
+  <li class="has-dropdown">
+                                            <a href="news.html">
+                                                About
+                                            </a>
+                                            <ul class="submenu">
+                                                <li><a href="about.html">About Us</a></li>
+                                                <li class="has-dropdown">
+                                                    <a href="team-details.html">
+                                                        Our Team
+                                                        <i class="fas fa-angle-right"></i>
+                                                    </a>
+                                                    <ul class="submenu">
+                                                        <li><a href="team.html">Our Team</a></li>
+                                                        <li><a href="team-details.html">Team Details</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li><a href="pricing.html">Our Pricing</a></li>
+                                            </ul>
+                                        </li>
