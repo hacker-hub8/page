@@ -972,6 +972,19 @@ span {
   }
 }
 
+.pp-breadcrumb-wrapper {
+    position: relative;
+    overflow: hidden;
+    height: 300px; /* Adjust as needed */
+}
+
+.pp-breadcrumb-wrapper video {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+
 .pp-doming-name-wrapper {
   background-color: var(--pp-theme);
   padding: 60px;
@@ -3062,7 +3075,7 @@ span {
   }
 }
 .pp-breadcrumb-wrapper .pp-page-heading h1 {
-  color: var(--pp-white);
+  color: var(--pp-black);
   font-size: 72px;
   position: relative;
   text-transform: capitalize;
@@ -3102,13 +3115,13 @@ span {
   }
 }
 .pp-breadcrumb-wrapper .pp-page-heading .pp-breadcrumb-items li {
-  color: var(--pp-white);
+  color: var(--pp-black);
   text-transform: capitalize;
   font-weight: 400;
   font-size: 16px;
 }
 .pp-breadcrumb-wrapper .pp-page-heading .pp-breadcrumb-items li a {
-  color: var(--pp-white);
+  color: var(--pp-black);
   transition: all 0.4s ease-in-out;
 }
 .pp-breadcrumb-wrapper .pp-page-heading .pp-breadcrumb-items li a:hover {
