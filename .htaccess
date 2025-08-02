@@ -1,0 +1,8 @@
+RewriteEngine On
+RewriteBase /
+
+# Redirect clean URLs like /about to /pages/about.php
+RewriteRule ^([a-zA-Z0-9_-]+)$ pages/$1.php [L]
+
+
+
